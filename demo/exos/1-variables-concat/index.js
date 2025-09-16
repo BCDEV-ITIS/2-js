@@ -5,7 +5,6 @@
  * 3. Une dernière avec l'année d'expertise
  * 4. Affichez la phrase suivante dans la console
  *  "Avec la techno PHP, je suis expert, depuis 8 ans"
- * Cf.correction 3-exo-concat
  */
 
 // = ici est un opérateur d'affection( affecter une valeur, à ne pas confondre avec le = mathématique)

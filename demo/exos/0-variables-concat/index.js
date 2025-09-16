@@ -1,4 +1,10 @@
-// La déclaration des variables
+/* 
+* Créer un programme js qui affiche votre identité (nom, prénom, age, sexe)
+* En respectant l'utilisation de let ou const et 
+* En respectant les conventions de nommage
+* Afficher les infos sur la console
+*/
+// La déclaration des variables en camelCase
 const firstName = 'Glodie'
 const lastName = 'Tshimini'
 let age = '33'
@@ -21,12 +27,3 @@ console.log("Sexe :", sex)
 let phrase = `Je suis ${firstName} ${lastName}, j'ai ${age} ans`
 console.log('Ma phrase', phrase)
 
-/**
- * Exercice d'application
- * 1. Stocker une information contenant un langage de programmation
- * 2. Une autre le niveau d'expertise
- * 3. Une dernière avec l'année d'expertise
- * 4. Affichez la phrase suivante dans la console
- *  "Avec la techno PHP, je suis expert, depuis 8 ans"
- * Cf.correction 3-exo-concat
- */
