@@ -28,6 +28,8 @@ const BIRTH = '07/12/1991'
  * Exercice d'application
  * 
  * Créer un programme js qui affiche votre identité (nom, prénom, age, sexe)
- * En respectant l'utilisation de let ou const et en respectant les conventions de nommage
+ * En respectant l'utilisation de let ou const et 
+ * En respectant les conventions de nommage
  * Afficher les infos sur la console
+ * Correction cf 2-exo
  */
