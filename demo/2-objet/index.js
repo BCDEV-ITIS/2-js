@@ -25,3 +25,17 @@ let product = {
 
 // Pour afficher le prix du produit, on utilise la  notation pointé, product.price
 console.log("Prix du produit", product.price)
+
+// Notation avec ES6 (à partir de 2015)
+class Product {
+    constructor(label, amount, ref) {
+        // Le mot-clé this fait référence à l'objet courant
+        // Donc ici à sa propriété name
+        this.name = label
+        this.price = amount
+        this.ref = ref
+    }
+}
+// Pour construire un objet (instancier la classe), on utilise l'opérateur new
+let productEs61 = new Product('Ordinateur MACOS', 2500, 'ref123456')
+let productEs62 = new Product('MS', 1750, 'ref00001')
