@@ -39,3 +39,4 @@ class Product {
 // Pour construire un objet (instancier la classe), on utilise l'opérateur new
 let productEs61 = new Product('Ordinateur MACOS', 2500, 'ref123456')
 let productEs62 = new Product('MS', 1750, 'ref00001')
+console.log('objetcs', productEs61, productEs62)

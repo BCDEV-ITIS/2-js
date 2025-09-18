@@ -1,9 +1,3 @@
-/* 
-* Créer un programme js qui affiche votre identité (nom, prénom, age, sexe)
-* En respectant l'utilisation de let ou const et 
-* En respectant les conventions de nommage
-* Afficher les infos sur la console
-*/
 // La déclaration des variables en camelCase
 const firstName = 'Glodie'
 const lastName = 'Tshimini'

@@ -6,8 +6,6 @@
  * PS : Plus tard on utilisera les formulaires pour intéragir avec un user
  */
 
-let nb1 = prompt('Saisissez un nombre') // affiche une fénêtre de dialogue
-let nb2 = prompt('Saisissez un autre nombre')
 // Attention tout ce qui est saisi et récupéré par un prompt() est un string
 // Pour les opérations mathématiques, il va falloir changer de type
 /**
@@ -17,17 +15,17 @@ let nb2 = prompt('Saisissez un autre nombre')
 const isAdult = true
 const me = { name: 'Glodie' }
 const tabs = ['hello', 'world']
-console.log('type de nb1', typeof nb1)
-console.log('type de nb2', typeof nb2)
 console.log('type de isAdult', typeof isAdult)
 console.log('type de me', typeof me)
 console.log('type de tabs', typeof tabs)
 
+// 1 et 2
+let nb1 = prompt('Saisissez un nombre') // affiche une fénêtre de dialogue
+let nb2 = prompt('Saisissez un autre nombre')
 // 3. somme
-
 nb1 = parseInt(nb1)
 nb2 = parseInt(nb2)
-
 // 4. Affichage directement dans le HTML
 let sum = nb1 + nb2
 document.writeln(`Addition de ${nb1} + ${nb2} = ${sum}`)
+console.log('type de nb1', typeof nb1)
