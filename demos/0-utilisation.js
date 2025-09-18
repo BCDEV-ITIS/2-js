@@ -8,7 +8,7 @@
 
 // Affichage d'une fenêtre d'alert sur la page web avec la fonction alert()
 alert('Hello World')
-/*
+/**
 * Affichage dans la console (F12 ou clic droit + inspecter)
 * avec la fonction console.log('Hello World)
 */

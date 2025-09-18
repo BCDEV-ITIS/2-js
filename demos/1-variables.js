@@ -6,9 +6,9 @@
 
 /**
  * BONNES PRATIQUES
- * - Coder en anglais
- * - Utiliser une seul convention de nommage pour votre projet
- * - Convetion camelCase : 1ère lettre en miniscule et 1ère de chaque nouveau mot en Majuscule (la plus populaire)
+ * - Codez en anglais
+ * - Utilisez une seule convention de nommage pour votre projet
+ * - Convetion camelCase : 1ère lettre en minuscule et 1ère de chaque nouveau mot en Majuscule (la plus populaire)
  *      - Exemple firstName, lastName, acceptResultOfState
  * - kebab-case : séparation de chaque mot avec un tiret 6 (tiret du mileu)
  * - snake_case : séparation avec le underscore (tiret 8)
@@ -20,12 +20,6 @@
 
 let accountSold = 100000000
 
-// Constante : ne varie pas dans le temps => utilisation du mot-clé const
+// Constante : information qui ne varie pas dans le temps (lors de l'exécution du code) => utilisation du mot-clé const
 // Convention de nommage camel, kebab, snake ou UPPERCASE(en général)
 const BIRTH = '07/12/1991'
-
-/**
- * Exercices d'application
- * - exos/0-variables-concat
- * - exos/1-variables-concat
-*/
