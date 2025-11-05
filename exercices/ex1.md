@@ -48,9 +48,9 @@
 
 Affichez en fonction d'une heure, le moment de la journée s'il s'agit :
 - Du matin (entre 6 et 12)
-- De l'après-midi entre 12h et 18h
-- De la soirée entre 18h et 00h
-- La nuit entre 00h et 6
+- De l'après-midi entre 13h et 18h
+- De la soirée entre 19h et 00h
+- La nuit entre 00h et 5h
 
 ---
 
@@ -110,6 +110,7 @@ Créez une fonction qui permet de réaliser la suite de *Fibonacci* : `1, 2, 3, 
 
 - Prenez en paramètre de votre fonction le nombre max permettant d'afficher la suite jusqu'à ce dernier
 - Retournez les valeurs de la suite dans un tableau
+Par exemple si l'utilisateur saisit 33, votre suite doit afficher *[1,2,3,5,8,13,21]
 
 ---
 
@@ -119,6 +120,14 @@ En utilisant le tableau ci-dessous, comptez le nombre d'éléments du tableau et
 
 ```js
 const countries = [67595000,9998000,8417000,1820631,434403,122273500, 82800000];
+```
+Retournez un objet 
+
+```js
+{
+  size: 10,
+  population: 1256345
+}
 ```
 
 ---
@@ -137,6 +146,7 @@ En utilisant la fonction *Math.random()*, remplissez un tableau avec 10 nombres 
 
 En utilisant la fonction *Math.random()*, remplissez un tableau avec 10 nombres aléatoires compris entre 0 et 100.
 Répartissez ensuite les valeurs dans deux tableaux distincts. Le premier contiendra les valeurs inférieures à 50 et le second les valeurs supérieures ou égales à 50.
+Retournez un tableau qui au rang 0 contient le tableau des nombres inférieurs à 50 et au rand 1 le tableau des nombres supérieurs à 50.
 
 ---
 
