@@ -1,13 +1,13 @@
 ## Rappels
 
-Un objet = instance d'une classe
-Classe = modèle (moule) qui regroupe des propriétés ou caractéristiques ou attributs (données) + des méthodes  ou opérations (actions ou fonctions)
+- Un objet = instance d'une classe.
+- Classe = modèle (moule) qui regroupe des propriétés ou caractéristiques ou attributs (données) + des méthodes  ou opérations (actions ou fonctions)
 
-Un exemple : 
-- Une classe Personne avec :
-    - propriétés : nom, prenom, age, couleur des yeux, etc
-    - méthodes : marcher(), parler(), manger(), etc.
-```PHP
+- Un exemple : 
+    - Une classe Personne avec :
+        - propriétés : nom, prenom, age, couleur des yeux, etc
+        - méthodes : marcher(), parler(), manger(), etc.
+```JAVA
 class Person {
     constructor(name, age) {
         this.name =  name
