@@ -30,12 +30,23 @@
 
 ---
 
-## Aide pour récupérer la valeur d'un champ input
+## Aides
+
+### Pour récupérer la valeur d'un champ input
 
 ```js
 const elt = document.querySelector('#firstname')
 elt.addEventListener('input', (evt) => {
   const inputValue = evt.target.value
+})
+```
+
+### Pour empêcher le comportement par defaut d'un événement
+
+```js
+const a = document.querySelector('a')
+a.addEventListener('click', (e) => {
+  e.preventDefault() // empêche la navigation vers la page de l'attribut href du lien (comportement par defaut)
 })
 ```
 
