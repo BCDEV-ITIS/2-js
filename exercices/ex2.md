@@ -30,6 +30,17 @@
 
 ---
 
+## Aide pour récupérer la valeur d'un champ input
+
+```js
+const elt = document.querySelector('#firstname')
+elt.addEventListener('input', (evt) => {
+  const inputValue = evt.target.value
+})
+```
+
+---
+
 ## Bonus
 
 1. Désactivez le bouton "ajouter une technologie" lorsque le champ de saisie de la techno est vide.
