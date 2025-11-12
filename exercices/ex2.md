@@ -24,7 +24,7 @@
 ### Spécifications techniques
 
 1. Faire le lien entre le HTML et le JS
-2. Un langage ou une techno est ajouté à partir du bouton ou touche *entrée*
+2. Une techno est ajoutée à partir du bouton
 3. Les langages et les technos doivent être affiché sous la forme d'une liste à puces.
 4. Si l'âge est supérieur ou égal à 18 ans, affichez le message "vous êtes majeur(e)", sinon affichez "Vous êtes mineur(e)"
 
