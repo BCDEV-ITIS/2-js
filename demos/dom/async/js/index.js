@@ -1,10 +1,10 @@
+// La majorité des fonctions JS sont sunchrones = bloquants
 alert('Hello') // fonction synchrone
 console.log('World') // fonction synchrone
 prompt('Saisissez une valeur') // synchrone
 
 // fonction asynchrone non bloquant, n'attend pas une réponse avant d'exécuter la ligne suivante
 // fonction synchrone = bloquant, n'exécute pas la suite tant que le code actuel n'est pas terminé
-
 // Exemples de fonctions asynchrones : les fonctions callbacks de addEventListerner
 
 console.log('Début script avec l\'asynchrone')

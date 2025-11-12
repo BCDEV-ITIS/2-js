@@ -21,7 +21,7 @@ document.querySelector('button').addEventListener('click', () => {
             throw new Error('Erreur lors de la récupération des utilisateurs')
         }
     })
-    .then((users) => {
+    .then((users) => { // resultat de response.json() précédent
         //3. ici on peut manipuler les objets avec JS et donc exploiter le résultat
         console.log('data', users)
         const main = document.querySelector('main')
@@ -31,9 +31,9 @@ document.querySelector('button').addEventListener('click', () => {
             img.src = user.avatar_url
             // Ajout les classes
             img.classList.add('img')
-            const p = document.createElement('p')
-            p.innerText = user.login
-            div.append(p)
+            const h2 = document.createElement('h2')
+            h2.innerText = user.login
+            div.append(h2)
             div.append(img)
             main.append(div)
         })
