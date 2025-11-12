@@ -1,11 +1,9 @@
 console.log("OK");
 /**
- * METHODO
- * 1. Sélectionner l'élement HTMl
- *  à l'aide d'un sélecteur CSS
- * 2. Utiliser la méthode
- *  addEventListener() sur l'élément sélectionné pour ajouter un événement
- * 3. Greffer un événement de type
+ * METHODO GLOBALE
+ * 1. Sélectionner l'élement HTML à l'aide d'un sélecteur CSS
+ * 2. Utiliser la méthode addEventListener() de l'objet document sur l'élément sélectionné pour ajouter un événement
+ * 3. Greffer un événement, il existe plusieurs événements, +50 différents dont les plus utilisés sont :
  *  - click
  *  - mouseenter
  *  - mouseleave
@@ -13,13 +11,16 @@ console.log("OK");
  *  - keydown
  *  - keypress
  *  - input
- * 4. Appeler un callback function (fonction de rappel)
- *  - La fonction qui sera appelée au moment ou l'événement aura lieu
+ *  - change
+ *  - submit
+ *  - etc.
+ * 4. Appeler une callback function (fonction de rappel)
+ *  - La fonction qui sera appelée au moment ou l'événement aura lieu (est déclenché)
  */
 
 function createH1InsideMain() {
-  // 1. Séléction d'un élément du HTML à l'aide de l'objet document et la méthode querySelector()
-  // 2. On veut ajouter un h1 à l'intérieur du main
+  // Séléction d'un élément du HTML à l'aide de l'objet document et la méthode querySelector()
+  // On veut ajouter un h1 à l'intérieur du main
   const mainContainer = document.querySelector("main");
   // create new h1
   const h1 = document.createElement("h1");
