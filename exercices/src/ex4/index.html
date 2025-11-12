@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Css selecteurs et JS</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <main class="noSel">
+    <h1>h1 Welcome to My Homepage</h1>
+    <div id="helpIntro">
+      div with id="helpIntro"
+      <div id="intro">
+        div with id="intro"
+        <span>span : My name is Donald Duck</span>
+        <span id="lastname">span with id="lastname"</span>
+        <span class="markup">span with class="markup"</span>
+        <span class="markup">span with class="markup"</span>
+        <span class="markup">span with class="markup"</span>
+        <p id="address">p with id="address" included 3 spans
+          <span class="markup">span with class="markup"</span>
+          <span>I live in Duckburg</span>
+          <span class="markup">span with class="markup"</span>
+        </p>
+        <p>paragraph included 3 spans (2 with class markup)
+          <span class="markup">span with class="markup"</span>
+          <span>span I have many friends</span>
+          <span class="markup">span with class="markup"</span>
+        </p>
+      </div>
+      <span class="markup">span with class="markup"</span>
+    </div>
+
+
+    <div class="helpUl">
+      div with class="helpU1"
+      <span class="markup">span with class="markup"</span>
+      <ul id="list-friends">
+        <li>ul with id "list-friends" first item friend 1</li>
+        <li>Item friend 2</li>
+        <li>item friend 3</li>
+        <li>item friend 4</li>
+      </ul>
+    </div>
+
+    <ul></ul>
+    <p class="myquote">paragraph with class="myquote" All my friends are great!</p>
+    <p>another paragraph But I really like Daisy!!</p>
+
+    <p lang="it" title="Hello beautiful">another paragraph with lang="en" and title="Hello beautiful"</p>
+
+    <h3>h3 We are all animals!</h3>
+
+    <div class="helpTable">
+      div with class="helpTable"
+      <table>
+        <thead>
+          <tr>
+            <th>Table</th>
+            <th>With thead, tbody and tfoot</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>Name</th>
+            <th>Type of Animal</th>
+          </tr>
+          <tr>
+            <td>Mickey</td>
+            <td>Mouse</td>
+          </tr>
+          <tr>
+            <td>Goofey</td>
+            <td>Dog</td>
+          </tr>
+          <tr>
+            <td>Daisy</td>
+            <td>Duck</td>
+          </tr>
+          <tr>
+            <td>Pluto</td>
+            <td>Dog</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="noSel newsletter">
+      div class="noSel newsletter"
+      <form>
+        form
+        <h4>h4 Subscribe to my newsletter:</h4>
+        <label>label Name:</label>
+        <input placeholder="input type text">
+        <span>input type text</span>
+        <label> Label E-mail:</label>
+        <div>
+          div with 3 children input radio
+          Female: <input name="rr" type="radio" id="rr1" checked="checked">
+          <span>input radio </span>
+          Male: <input name="rr" type="radio" id="rr2">
+          <span>input radio </span>
+          Other: <input name="rr" type="radio" id="rr3" disabled="disabled">
+          <span>input radio disabled</span>
+        </div>
+        <h4>h4 Newscategories:</h4>
+        <label> label Dogs:</label>
+        <input id="cc1" type="checkbox" checked="checked">
+        <span>input checkbox</span>
+        <label>label Humans:</label>
+        <input id="cc2" type="checkbox"><span>input checkbox</span>
+        <input type="number" min="1" max="10" value="7"><span>input type number min=1 max=10 value=7</span>
+      </form>
+    </div>
+  </main>
+</body>
+
+</html>

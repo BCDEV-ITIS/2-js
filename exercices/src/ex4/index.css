@@ -1,0 +1,49 @@
+main {
+  padding: 5px;
+}
+
+label {
+  color: orange;
+}
+
+input {
+  color: green;
+}
+
+p {
+  color: blue;
+}
+
+h1 {
+  color: brown;
+}
+
+h2 {
+  color: violet;
+}
+
+h3 {
+  color: chocolate;
+}
+
+h4 {
+  color: olive;
+}
+
+ul {
+  color: crimson;
+}
+
+span {
+  color: tomato;
+}
+input+span {
+  color:mediumturquoise
+}
+
+table *{
+  border: 1px solid #000;
+}
+h1,h2,h3,h4 {
+  text-decoration: underline;
+}

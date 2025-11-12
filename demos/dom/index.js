@@ -1,4 +1,3 @@
-console.log("OK");
 /**
  * METHODO GLOBALE
  * 1. Sélectionner l'élement HTML à l'aide d'un sélecteur CSS

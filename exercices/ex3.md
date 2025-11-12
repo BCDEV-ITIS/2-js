@@ -4,9 +4,9 @@
 
 ## Modalités
 
-1. Récupérez ce [code HTML](./src/exercice3.html) qui servira de base pour l'exercice
+1. Récupérez ce [code HTML](./src/ex3/index.html) qui servira de base pour l'exercice
 2. Ajoutez votre JS dans ce fichier HTML
-
+3. Avec le CSS, faites la mise en page avec FlexBox pour obtenir le résultat [ci-dessous](#maquette-de-la-page-version-desktop-bureau)
 ---
 
 ## Enoncé
@@ -21,6 +21,6 @@ Les actions à effectuer :
  - Modifiez l’apparence du curseur au survol de l'image en affichant tout en haut de la page le message "survol de l'image" ;
  - Et tout ce qui vous passe par la tête
 
-### Maquette de la page version desktop (bureau)
+### Maquette de la page
 
 ![img](img/mockup-ex3-desktop.png)

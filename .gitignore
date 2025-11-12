@@ -1,3 +1,8 @@
 admin
 cours/*
 !cours/*.pdf
+**/TODO.md
+**/node_modules
+**/tests
+**/corrections
+**/src/ex3/*
