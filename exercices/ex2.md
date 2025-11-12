@@ -50,5 +50,5 @@ elt.addEventListener('input', (evt) => {
 
 ## Illustration
 
-![mockup](img/mockup-ex2.png)
+![mockup](img/mockup_ex2.png)
 
