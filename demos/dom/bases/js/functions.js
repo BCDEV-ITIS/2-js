@@ -16,12 +16,23 @@
  * 4. Appeler une callback function (fonction de rappel)
  *  - La fonction qui sera appelée au moment ou l'événement aura lieu (est déclenché)
  */
+
+/**
+ * Add new paragraphs
+ * @param {int} max total of new items
+ */
 export function addParagraphs(max = 3) {
   for (let i = 1; i <= max; i++) {
     createHTMLElt("main", "p", `Paragraphes ${i}`);
   }
 }
 
+/**
+ * Create new child elements to parent element
+ * @param {String} parentSelector parent CSS selector
+ * @param {String} newTag  tag of new child HTML element
+ * @param {String} content  inner text of new tag HTML element
+ */
 export function createHTMLElt(parentSelector, newTag, content) {
   // Séléction d'un élément du HTML à l'aide de l'objet document et la méthode querySelector()
   // On veut ajouter un élément à l'intérieur du parent identifiable via le sélecteur parentSelector
