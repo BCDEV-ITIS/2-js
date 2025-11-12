@@ -2,7 +2,7 @@
 
 ## Enoncé
 
-1. Copiez/collez ce fichier contenant les [articles du journal lemonde](./src/news.json) dans le dossier ***data/*** à la racine de votre projet (ce dossier contient donc le fichier `news.json`)
+1. Copiez/collez ce fichier contenant les [articles du journal lemonde](./src/ex5/news.json) dans le dossier ***data/*** à la racine de votre projet (ce dossier contient donc le fichier `news.json`)
 2. Créez une nouvelle page  `/news` permettant d'afficher tous les articles cf. image d'illustration ci-dessous.
 3. Créez une nouvelle page  `/news/{id}` permettant d'afficher un seul article cf.image d'illustration ci-dessous.
 4. Créez une nouvelle page `/users` permettant de lister tous les utilisateurs récupérés depuis l'[*API de Github* https://api.github.com/users](https://api.github.com/users) sous la forme d'une liste à puces HTML avec un lien la page de détails de l'utilisateur cf. image d'illustration ci-dessous.
